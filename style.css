@@ -30,6 +30,8 @@ a {
 button {
     background-color: #3882f6;
     size: 150px;
+    display: flex;
+    border-radius: 25px;
     /* make it round */
 } 
 
@@ -64,7 +66,7 @@ img {
     color: #f9faf8;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 20px;
     padding-right: 155px;
     padding-left: 155px;
@@ -90,11 +92,12 @@ img {
   }
 
 .rightside {
-    width: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    width: 400px;
+    height: 400px;
+    padding: 10px;
   }  
 
 .txt-pic {
@@ -103,6 +106,7 @@ img {
     justify-content: center;
     gap: 25px;
     padding-top: 25px;
+    /* flex-wrap: wrap; */
 } 
 
 .title {
@@ -126,8 +130,17 @@ img {
     padding-bottom: 40px;
   }
 
-.pix-txt {
-    /* width: 260px; */
+.img {
+  display: flex;
+  /* border-radius: 25px;
+  border: 2px solid #73AD21;*/
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.pictxt {
+  width: 250px;
 }
 
 .quote {
@@ -138,7 +151,6 @@ img {
     justify-content: center;
     text-align: start;
     color: #1f2937;
-    /* flex-wrap: wrap; */
     padding-right: 155px;
     padding-left: 155px;
   }
@@ -170,12 +182,18 @@ img {
   color: #f9faf8;
   display: flex;
   justify-content: space-evenly;
+  border-radius: 25px;
 }
 
 .button {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border-radius: 25px;
+  border: 2px solid #eee;
+  padding: 20px;
+  width: 40px;
+  height: 20px; */
 }
 
 .footer {
