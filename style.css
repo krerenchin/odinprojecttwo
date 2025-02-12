@@ -29,10 +29,12 @@ a {
 
 button {
     background-color: #3882f6;
-    size: 150px;
-    display: flex;
-    border-radius: 25px;
-    /* make it round */
+    max-width: 150px;
+    padding: 10px 24px;
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px solid #e5e7eb;
+    color: white;
 } 
 
 img {
@@ -66,7 +68,7 @@ img {
     color: #f9faf8;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 20px;
     padding-right: 155px;
     padding-left: 155px;
@@ -75,10 +77,14 @@ img {
    
 }
 
+.ver1 {
+  border: none;
+} 
+
 .text {
-  /* color: #e5e7eb; */
   font-size: 18px;
   display: flex;
+  align-content: center;
   align-items: center;
   gap: 15px;
 }
@@ -106,7 +112,7 @@ img {
     justify-content: center;
     gap: 25px;
     padding-top: 25px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 } 
 
 .title {
@@ -132,15 +138,19 @@ img {
 
 .img {
   display: flex;
-  /* border-radius: 25px;
-  border: 2px solid #73AD21;*/
   padding: 10px;
   width: 250px;
   height: 250px;
+  border-radius: 25px;
+  border: 2px solid #3882f6;
 }
 
 .pictxt {
   width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .quote {
@@ -185,16 +195,25 @@ img {
   border-radius: 25px;
 }
 
+.text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lineone {
+  font-weight: bold;
+}
+
+.linetwo {
+  font-weight: normal;
+}
+
 .button {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-radius: 25px;
-  border: 2px solid #eee;
-  padding: 20px;
-  width: 40px;
-  height: 20px; */
-}
+} 
 
 .footer {
     height: 72px;
